@@ -30,9 +30,18 @@
 
 # print(dir(float))
 
-urunA=5000
-urunB=6000
-kdv=0.18
+# urunA=5000
+# urunB=6000
+# kdv=0.18
 
-print(urunA + (urunA*kdv))
-print(urunB + (urunB*kdv))
+# print(urunA + (urunA*kdv))
+# print(urunB + (urunB*kdv))
+
+
+pi =3.14
+r = float(input('yari capi: '))
+
+alan = pi *(r**2)
+cevre = 2 * pi * r
+
+print(alan, cevre)
