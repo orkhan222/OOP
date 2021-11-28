@@ -38,10 +38,23 @@
 # print(urunB + (urunB*kdv))
 
 
-pi =3.14
-r = float(input('yari capi: '))
+# pi =3.14
+# r = float(input('yari capi: '))
 
-alan = pi *(r**2)
-cevre = 2 * pi * r
+# alan = pi *(r**2)
+# cevre = 2 * pi * r
 
-print(alan, cevre)
+# print(alan, cevre)
+
+ad = input('adiniz: ')
+soyad = input('soyadiniz: ')
+yas = str(input('yasiniz: '))
+
+msj= 'Menim adim ' + ad + ' ve soyadim ' + soyad + '.Yasim ise o' + yas + '.'
+
+print(msj)
+
+print(msj[0])
+print(msj[1])
+print(msj[-1])
+print(msj[15])
