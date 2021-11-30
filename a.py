@@ -46,15 +46,26 @@
 
 # print(alan, cevre)
 
-ad = input('adiniz: ')
-soyad = input('soyadiniz: ')
-yas = str(input('yasiniz: '))
+# ad = input('adiniz: ')
+# soyad = input('soyadiniz: ')
+# yas = str(input('yasiniz: '))
 
-msj= 'Menim adim ' + ad + ' ve soyadim ' + soyad + '.Yasim ise o' + yas + '.'
+# msj= 'Menim adim ' + ad + ' ve soyadim ' + soyad + '.Yasim ise o' + yas + '.'
 
-print(msj)
+# print(msj)
 
-print(msj[0])
-print(msj[1])
-print(msj[-1])
-print(msj[15])
+# print(msj[0])
+# print(msj[1])
+# print(msj[-1])
+# print(msj[15])
+
+
+name = ['anar','aydan','aybeniz','aynur','oraxn','ozal']
+index = 0
+count= 0
+while len(name) > index:
+    if name[index][0] == 'a':
+        count+=1
+    index+=1
+print(count)
+    
