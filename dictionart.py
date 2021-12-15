@@ -5,33 +5,33 @@ urunler = {
     '3': {'ad': 'Orxan', 'soyad': 'Mustafayev'}
 }
 
-# id = input('id: ')
-# ad = input('ad: ')
-# soyad = input('soyad: ')
+id = input('id: ')
+ad = input('ad: ')
+soyad = input('soyad: ')
 
-# urunler[id] ={
-#     'ad':ad,
-#     'soyad':soyad
-# }
+urunler[id] ={
+    'ad':ad,
+    'soyad':soyad
+}
 
-# id = input('id: ')
-# ad = input('ad: ')
-# soyad = input('soyad: ')
+id = input('id: ')
+ad = input('ad: ')
+soyad = input('soyad: ')
 
-# urunler[id] ={
-#     'ad':ad,
-#     'soyad':soyad
-# }
+urunler[id] ={
+    'ad':ad,
+    'soyad':soyad
+}
 
 
-# id = input('id: ')
-# ad = input('ad: ')
-# soyad = input('soyad: ')
+id = input('id: ')
+ad = input('ad: ')
+soyad = input('soyad: ')
 
-# urunler[id] ={
-#     'ad':ad,
-#     'soyad':soyad
-# }
+urunler[id] ={
+    'ad':ad,
+    'soyad':soyad
+}
 
 
 
@@ -41,4 +41,4 @@ urun = urunler[id]
 print(urun)
 
 
-# print(urunler)
+print(urunler)

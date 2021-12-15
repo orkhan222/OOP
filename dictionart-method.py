@@ -25,31 +25,31 @@ players = {
         
 }
 
-# id = input('oyuncu id: ')
-# name = input('name: ')
-# yearOfBirth = input('yearOfBirth: ')
-# nationality = input('nationality: ')
-# current_team = input('current_team: ')
-# history = input('history: ')
+id = input('oyuncu id: ')
+name = input('name: ')
+yearOfBirth = input('yearOfBirth: ')
+nationality = input('nationality: ')
+current_team = input('current_team: ')
+history = input('history: ')
 
 
 
-# players.update({
-#     id: {
-#         'name' : name,
-#         'yearOfBirth' : yearOfBirth,
-#         'nationality' : nationality,
-#         'current_team' : current_team,
-#         'history' : history.split(',')
-#     }
+players.update({
+    id: {
+        'name' : name,
+        'yearOfBirth' : yearOfBirth,
+        'nationality' : nationality,
+        'current_team' : current_team,
+        'history' : history.split(',')
+    }
     
-# })
+})
 
 
 # 2-ci id  e gore arama yapiniz.
-# id = input('aramak istediginiz oyuncu id: ')
-# player = players.get(id)
-# print(player)
+id = input('aramak istediginiz oyuncu id: ')
+player = players.get(id)
+print(player)
 
 # 3-cu id e gore bilgi kayit siliniz.
 id = input('aramak istediginiz oyuncu id: ')
@@ -57,4 +57,4 @@ players.pop(id)
 print(players)
 
 
-# print(players)
+print(players)
