@@ -6,10 +6,10 @@ dizelFiyat = 0.8
 toplamYakitUcreti = 0
 
 ortalama = float(input('100 km deki ortalama yakit tuketimi: '))
-gidil = float(input('gidilecek yol kac km: '))
+gidilecekYol = float(input('gidilecek yol kac km: '))
 yakit = input('yakit tipiniz nedir: ')
 
-toplamYakitTuketimi = gidil * (ortalama / 100)
+toplamYakitTuketimi = gidilecekYol * (ortalama / 100)
 
 
 
