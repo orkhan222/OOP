@@ -92,11 +92,16 @@
 # b = ('p' * 3) *2
 # print(a==b)-----------------------------------True
 
-def unpack(p,q,r,s):
-    print(p+s)
-a = [2,3,4,5]
-unpack(*a)
+# def unpack(p,q,r,s):
+#     print(p+s)
+# a = [2,3,4,5]
+# unpack(*a)----------------------------------7
 
 
 
-
+l=[7,8,9,10]
+a=0
+for i in l:
+    if a<i:
+        a=i
+print(a)
