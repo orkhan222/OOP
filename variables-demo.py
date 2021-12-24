@@ -33,10 +33,10 @@
     Urun 3 => 356.45 TL
     
 """
-Urun1 = 50 
-Urun2 = 60.5 
-Urun3 = 356.45 
+# Urun1 = 50 
+# Urun2 = 60.5 
+# Urun3 = 356.45 
 
-toplam = Urun1 + Urun2 +Urun3
+# toplam = Urun1 + Urun2 +Urun3
 
-print(toplam)
+# print(toplam)

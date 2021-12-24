@@ -99,9 +99,10 @@
 
 
 
-l=[7,8,9,10]
-a=0
-for i in l:
-    if a<i:
-        a=i
-print(a)
+# l=[7,8,9,10]
+# a=0
+# for i in l:
+#     if a<i:
+#         a=i
+# print(a)
+
