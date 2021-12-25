@@ -2,7 +2,6 @@ class Pet:
     cinsler = ['kedi','kopek','kus']
     
     def __init__(self, isim,cins):
-        
         if cins not in Pet.cinsler:
             raise ValueError(f'{cins} bir evcil heyvan deyildir.')
         self.isim = isim
